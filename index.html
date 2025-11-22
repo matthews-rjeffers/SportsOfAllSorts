@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sports of All Sorts - Northern Kentucky's premier sports facility offering basketball, volleyball, soccer leagues, bowling, fitness center, and birthday parties.">
+    <meta name="keywords" content="sports leagues, basketball, volleyball, soccer, bowling, fitness center, birthday parties, Northern Kentucky, Florence KY">
+    <title>Sports of All Sorts | Northern Kentucky's Premier Sports Facility</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="Sports of All Sorts Home">
+                <span class="logo-icon" aria-hidden="true">🏀</span>
+                <span class="logo-text">Sports of All Sorts</span>
+            </a>
+
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Main Navigation -->
+            <nav id="main-nav" class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-dropdown">
+                        <button class="nav-link dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+                            Sports & Leagues
+                            <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+                                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="none"><a href="#leagues" role="menuitem">Basketball</a></li>
+                            <li role="none"><a href="#leagues" role="menuitem">Volleyball</a></li>
+                            <li role="none"><a href="#leagues" role="menuitem">Soccer & Futsal</a></li>
+                            <li role="none"><a href="#leagues" role="menuitem">Flag Football</a></li>
+                            <li role="none"><a href="#bowling" role="menuitem">Bowling</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#fitness" class="nav-link">Fitness Center</a></li>
+                    <li><a href="#parties" class="nav-link">Parties & Events</a></li>
+                    <li><a href="#training" class="nav-link">Training & Camps</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#register" class="btn btn-primary header-cta">Register Now</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background" aria-hidden="true"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    Your Home for
+                    <span class="highlight">Sports & Fitness</span>
+                    in Northern Kentucky
+                </h1>
+                <p class="hero-subtitle">
+                    Join leagues, train with experts, host unforgettable parties, and achieve your fitness goals — all under one roof.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#leagues" class="btn btn-primary btn-large">Explore Leagues</a>
+                    <a href="#fitness" class="btn btn-secondary btn-large">Join Fitness Center</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Courts</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Bowling Lanes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">40+</span>
+                        <span class="stat-label">Years of Excellence</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1000s</span>
+                        <span class="stat-label">Happy Athletes</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Links / Services Overview -->
+        <section class="services" aria-labelledby="services-heading">
+            <div class="container">
+                <h2 id="services-heading" class="section-title">What We Offer</h2>
+                <p class="section-subtitle">Everything you need for sports, fitness, and fun</p>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">🏀</div>
+                        <h3>Basketball Leagues</h3>
+                        <p>Competitive and recreational leagues for all ages and skill levels. Year-round play on our professional courts.</p>
+                        <a href="#leagues" class="card-link">View Leagues <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">🏐</div>
+                        <h3>Volleyball</h3>
+                        <p>Indoor volleyball leagues and open play. From beginners to competitive players, find your team.</p>
+                        <a href="#leagues" class="card-link">View Leagues <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">⚽</div>
+                        <h3>Soccer & Futsal</h3>
+                        <p>Indoor soccer and futsal leagues. Fast-paced action year-round, rain or shine.</p>
+                        <a href="#leagues" class="card-link">View Leagues <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">🎳</div>
+                        <h3>Bowling</h3>
+                        <p>8 lanes of bowling fun! Open bowling, leagues, and cosmic bowling nights for the whole family.</p>
+                        <a href="#bowling" class="card-link">Learn More <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">💪</div>
+                        <h3>Fitness Center</h3>
+                        <p>Full gym with modern equipment. Accepting SilverSneakers, Active & Fit, and Renew Active. No contracts!</p>
+                        <a href="#fitness" class="card-link">Join Today <span aria-hidden="true">→</span></a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">🎉</div>
+                        <h3>Birthday Parties</h3>
+                        <p>Unforgettable birthday celebrations! Bowling, basketball, volleyball, and bounce house packages.</p>
+                        <a href="#parties" class="card-link">Book a Party <span aria-hidden="true">→</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leagues Section -->
+        <section id="leagues" class="leagues" aria-labelledby="leagues-heading">
+            <div class="container">
+                <h2 id="leagues-heading" class="section-title">Sports Leagues</h2>
+                <p class="section-subtitle">Competitive and recreational leagues for all ages</p>
+
+                <div class="leagues-grid">
+                    <article class="league-card">
+                        <div class="league-image basketball-bg" role="img" aria-label="Basketball court"></div>
+                        <div class="league-content">
+                            <h3>Basketball</h3>
+                            <ul class="league-features">
+                                <li>Youth & Adult Leagues</li>
+                                <li>Men's & Women's Divisions</li>
+                                <li>Recreational & Competitive</li>
+                                <li>Year-round seasons</li>
+                            </ul>
+                            <a href="#register" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </article>
+
+                    <article class="league-card">
+                        <div class="league-image volleyball-bg" role="img" aria-label="Volleyball court"></div>
+                        <div class="league-content">
+                            <h3>Volleyball</h3>
+                            <ul class="league-features">
+                                <li>Co-ed & Women's Leagues</li>
+                                <li>Multiple skill divisions</li>
+                                <li>Indoor climate-controlled</li>
+                                <li>Open play available</li>
+                            </ul>
+                            <a href="#register" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </article>
+
+                    <article class="league-card">
+                        <div class="league-image soccer-bg" role="img" aria-label="Soccer field"></div>
+                        <div class="league-content">
+                            <h3>Soccer & Futsal</h3>
+                            <ul class="league-features">
+                                <li>Youth & Adult Programs</li>
+                                <li>Indoor futsal courts</li>
+                                <li>Skill development focus</li>
+                                <li>Tournament opportunities</li>
+                            </ul>
+                            <a href="#register" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </article>
+
+                    <article class="league-card">
+                        <div class="league-image football-bg" role="img" aria-label="Flag football field"></div>
+                        <div class="league-content">
+                            <h3>Flag Football</h3>
+                            <ul class="league-features">
+                                <li>Youth leagues</li>
+                                <li>Safe, non-contact play</li>
+                                <li>Team & individual signups</li>
+                                <li>Experienced referees</li>
+                            </ul>
+                            <a href="#register" class="btn btn-primary">Register Now</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="leagues-cta">
+                    <p>Don't have a team? No problem! Sign up as a free agent and we'll place you.</p>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fitness Center Section -->
+        <section id="fitness" class="fitness" aria-labelledby="fitness-heading">
+            <div class="container">
+                <div class="fitness-grid">
+                    <div class="fitness-content">
+                        <h2 id="fitness-heading" class="section-title text-left">Fitness Center</h2>
+                        <p class="fitness-tagline">Unlock Your Best Self — No Contracts, No Hidden Fees</p>
+
+                        <div class="fitness-features">
+                            <div class="fitness-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <div>
+                                    <h4>Modern Equipment</h4>
+                                    <p>Cardio machines, free weights, and strength training equipment for all fitness levels.</p>
+                                </div>
+                            </div>
+                            <div class="fitness-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <div>
+                                    <h4>Group Classes</h4>
+                                    <p>Silver Sneakers, Boot Camps, and more. Find your community.</p>
+                                </div>
+                            </div>
+                            <div class="fitness-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <div>
+                                    <h4>Personal Training</h4>
+                                    <p>Certified coaches to guide your fitness journey with personalized programs.</p>
+                                </div>
+                            </div>
+                            <div class="fitness-feature">
+                                <span class="feature-icon" aria-hidden="true">✓</span>
+                                <div>
+                                    <h4>Pickleball</h4>
+                                    <p>Open play Mon-Fri, 8am-4pm. Members play free!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="insurance-badges">
+                            <p class="insurance-label">We Accept:</p>
+                            <div class="badges">
+                                <span class="badge">SilverSneakers</span>
+                                <span class="badge">Active & Fit</span>
+                                <span class="badge">Renew Active</span>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary btn-large">Start Your Membership</a>
+                    </div>
+                    <div class="fitness-image" role="img" aria-label="Modern fitness center with equipment"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bowling Section -->
+        <section id="bowling" class="bowling" aria-labelledby="bowling-heading">
+            <div class="container">
+                <h2 id="bowling-heading" class="section-title">8-Lane Bowling Center</h2>
+                <p class="section-subtitle">Family fun, league play, and cosmic bowling nights</p>
+
+                <div class="bowling-grid">
+                    <div class="bowling-card">
+                        <div class="bowling-icon" aria-hidden="true">🎳</div>
+                        <h3>Open Bowling</h3>
+                        <p>Drop in anytime during open hours. Shoe rental included. Perfect for families and groups.</p>
+                    </div>
+                    <div class="bowling-card">
+                        <div class="bowling-icon" aria-hidden="true">🏆</div>
+                        <h3>League Play</h3>
+                        <p>Join one of our bowling leagues! All skill levels welcome. Weekly competition and prizes.</p>
+                    </div>
+                    <div class="bowling-card">
+                        <div class="bowling-icon" aria-hidden="true">🌟</div>
+                        <h3>Cosmic Bowling</h3>
+                        <p>Black lights, music, and glow-in-the-dark fun! Check our schedule for cosmic bowling nights.</p>
+                    </div>
+                    <div class="bowling-card">
+                        <div class="bowling-icon" aria-hidden="true">🕹️</div>
+                        <h3>Arcade</h3>
+                        <p>Full arcade with the latest games. Perfect addition to bowling or parties!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Birthday Parties Section -->
+        <section id="parties" class="parties" aria-labelledby="parties-heading">
+            <div class="container">
+                <h2 id="parties-heading" class="section-title">Birthday Parties & Events</h2>
+                <p class="section-subtitle">Unforgettable celebrations for all ages</p>
+
+                <div class="parties-grid">
+                    <article class="party-card featured">
+                        <div class="party-badge">Most Popular</div>
+                        <h3>Bowling Party</h3>
+                        <div class="party-price">
+                            <span class="price">$14.95</span>
+                            <span class="per">per person</span>
+                        </div>
+                        <ul class="party-features">
+                            <li>One game of bowling (shoes included)</li>
+                            <li>$2.50 arcade credit per guest</li>
+                            <li>2 slices of pizza per guest</li>
+                            <li>Small soft drink</li>
+                            <li>2 hours reserved seating</li>
+                            <li>Dedicated host/hostess</li>
+                        </ul>
+                        <p class="party-note">Minimum 8 guests. Bring your own cake!</p>
+                        <a href="#contact" class="btn btn-primary">Book Now</a>
+                    </article>
+
+                    <article class="party-card">
+                        <h3>Basketball Party</h3>
+                        <div class="party-price">
+                            <span class="price">$50</span>
+                            <span class="per">per hour</span>
+                        </div>
+                        <ul class="party-features">
+                            <li>Private court rental</li>
+                            <li>Basketballs provided</li>
+                            <li>Scoreboard access</li>
+                            <li>Party area available</li>
+                        </ul>
+                        <p class="party-note">Special party discount applied</p>
+                        <a href="#contact" class="btn btn-secondary">Book Now</a>
+                    </article>
+
+                    <article class="party-card">
+                        <h3>Volleyball Party</h3>
+                        <div class="party-price">
+                            <span class="price">$50</span>
+                            <span class="per">per hour</span>
+                        </div>
+                        <ul class="party-features">
+                            <li>Private court rental</li>
+                            <li>Volleyballs provided</li>
+                            <li>Net setup included</li>
+                            <li>Party area available</li>
+                        </ul>
+                        <p class="party-note">Great for team celebrations!</p>
+                        <a href="#contact" class="btn btn-secondary">Book Now</a>
+                    </article>
+
+                    <article class="party-card">
+                        <h3>Bounce House Party</h3>
+                        <div class="party-price">
+                            <span class="price">Contact</span>
+                            <span class="per">for pricing</span>
+                        </div>
+                        <ul class="party-features">
+                            <li>Inflatable bounce house</li>
+                            <li>Safe indoor environment</li>
+                            <li>Perfect for younger kids</li>
+                            <li>Add-on options available</li>
+                        </ul>
+                        <p class="party-note">Great for ages 3-10</p>
+                        <a href="#contact" class="btn btn-secondary">Inquire</a>
+                    </article>
+                </div>
+
+                <div class="events-section">
+                    <h3>Corporate Events & Group Outings</h3>
+                    <p>Team building, company parties, field trips, and fundraisers. We customize packages to fit your needs.</p>
+                    <a href="#contact" class="btn btn-secondary">Plan Your Event</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Training Section -->
+        <section id="training" class="training" aria-labelledby="training-heading">
+            <div class="container">
+                <h2 id="training-heading" class="section-title">Training & Camps</h2>
+                <p class="section-subtitle">Elevate your game with expert coaching</p>
+
+                <div class="training-grid">
+                    <article class="training-card">
+                        <h3>Basketball Skills Training</h3>
+                        <p class="training-coach">with Coach Guy Godwin</p>
+                        <p>Intensive ball handling program with 1,250-2,000 dribble reps per class. Build confidence and fundamentals.</p>
+                        <ul class="training-details">
+                            <li><strong>Duration:</strong> 16 weeks</li>
+                            <li><strong>Schedule:</strong> Mon & Thu, 6:30-7:30 PM</li>
+                            <li><strong>Cost:</strong> $160 ($10/class)</li>
+                            <li><strong>Ages:</strong> Boys & Girls</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Register</a>
+                    </article>
+
+                    <article class="training-card">
+                        <h3>D1P Training</h3>
+                        <p>Division 1 Prep training for serious athletes. Speed, agility, and sport-specific conditioning.</p>
+                        <ul class="training-details">
+                            <li>Elite coaching staff</li>
+                            <li>Performance metrics tracking</li>
+                            <li>College prep focus</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary">Learn More</a>
+                    </article>
+
+                    <article class="training-card">
+                        <h3>Summer Camps</h3>
+                        <p>Multi-sport camps for youth. Basketball, volleyball, soccer, and more in a fun, supportive environment.</p>
+                        <ul class="training-details">
+                            <li>Full and half-day options</li>
+                            <li>All skill levels</li>
+                            <li>Age-appropriate groups</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary">Get Info</a>
+                    </article>
+
+                    <article class="training-card">
+                        <h3>Youth Programs</h3>
+                        <p>Club Fit Youth, Homeschool Fit, and sports-specific programs designed for young athletes.</p>
+                        <ul class="training-details">
+                            <li>Age-appropriate training</li>
+                            <li>Fundamental skills focus</li>
+                            <li>Fun, engaging environment</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary">Explore Programs</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h2 id="about-heading" class="section-title text-left">About Sports of All Sorts</h2>
+                        <p class="about-tagline">40+ Years of Sports Excellence in Northern Kentucky</p>
+
+                        <p>Our mission is to provide Northern Kentucky residents the very best in wholesome family entertainment while promoting family fun and fitness through state-of-the-art amenities.</p>
+
+                        <p>Established at our current location in July 2015, the Sports of All Sorts name has been a household name in the community for over 40 years.</p>
+
+                        <div class="facility-features">
+                            <h3>Our Facility</h3>
+                            <ul>
+                                <li>4 Basketball/Volleyball Courts</li>
+                                <li>8-Lane Bowling Center</li>
+                                <li>Full Fitness Center</li>
+                                <li>Group Fitness Rooms</li>
+                                <li>Arcade</li>
+                                <li>Party Rooms</li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="btn btn-secondary">Schedule a Tour</a>
+                    </div>
+                    <div class="about-image" role="img" aria-label="Sports of All Sorts facility"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hours Section -->
+        <section class="hours" aria-labelledby="hours-heading">
+            <div class="container">
+                <h2 id="hours-heading" class="section-title">Hours of Operation</h2>
+
+                <div class="hours-grid">
+                    <div class="hours-card">
+                        <h3>Main Facility</h3>
+                        <table class="hours-table">
+                            <tbody>
+                                <tr><td>Monday - Thursday</td><td>9:00 AM - 9:00 PM</td></tr>
+                                <tr><td>Friday</td><td>9:00 AM - 10:00 PM</td></tr>
+                                <tr><td>Saturday</td><td>9:00 AM - 10:00 PM</td></tr>
+                                <tr><td>Sunday</td><td>12:00 PM - 6:00 PM</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="hours-card">
+                        <h3>Fitness Center</h3>
+                        <table class="hours-table">
+                            <tbody>
+                                <tr><td>Monday - Thursday</td><td>5:00 AM - 9:00 PM</td></tr>
+                                <tr><td>Friday</td><td>5:00 AM - 8:00 PM</td></tr>
+                                <tr><td>Saturday</td><td>7:00 AM - 5:00 PM</td></tr>
+                                <tr><td>Sunday</td><td>12:00 PM - 5:00 PM</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <p class="hours-note">Hours may vary on holidays. Check our social media for updates.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading" class="section-title">Contact Us</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">📍</span>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Florence, KY 41042</p>
+                                <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="map-link">Get Directions</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">📞</span>
+                            <div>
+                                <h3>Phone</h3>
+                                <p><a href="tel:+18593715511">(859) 371-5511</a></p>
+                                <p class="secondary">Birthday Parties: <a href="tel:+18593727754">(859) 372-7754</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">✉️</span>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:director.soas@twc.com">director.soas@twc.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>Follow Us</h3>
+                            <div class="social-icons">
+                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                                </a>
+                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" autocomplete="tel">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject <span class="required">*</span></label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic...</option>
+                                <option value="leagues">League Registration</option>
+                                <option value="fitness">Fitness Membership</option>
+                                <option value="parties">Birthday Parties</option>
+                                <option value="events">Corporate Events</option>
+                                <option value="training">Training & Camps</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration CTA Section -->
+        <section id="register" class="register-cta" aria-labelledby="register-heading">
+            <div class="container">
+                <h2 id="register-heading">Ready to Play?</h2>
+                <p>Register for leagues, sign up for fitness, or book your event today.</p>
+                <div class="register-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">Register for Leagues</a>
+                    <a href="#contact" class="btn btn-secondary btn-large">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-icon" aria-hidden="true">🏀</span>
+                        <span>Sports of All Sorts</span>
+                    </a>
+                    <p>Northern Kentucky's premier destination for sports, fitness, and family fun since 1984.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#leagues">Sports Leagues</a></li>
+                        <li><a href="#fitness">Fitness Center</a></li>
+                        <li><a href="#bowling">Bowling</a></li>
+                        <li><a href="#parties">Birthday Parties</a></li>
+                        <li><a href="#training">Training & Camps</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Employment</a></li>
+                        <li><a href="#">League Rules</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Florence, KY 41042</p>
+                    <p><a href="tel:+18593715511">(859) 371-5511</a></p>
+                    <p><a href="mailto:director.soas@twc.com">director.soas@twc.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sports of All Sorts. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
